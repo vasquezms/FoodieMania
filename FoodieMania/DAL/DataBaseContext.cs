@@ -17,6 +17,11 @@ namespace FoodieMania.DAL
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Foodie>().HasIndex(c => c.Name).IsUnique();
         }
+
+        #region DbSets
+        public DbSet<Foodie> Foodies { get; set; }
+
+        #endregion
     }
 }
 
