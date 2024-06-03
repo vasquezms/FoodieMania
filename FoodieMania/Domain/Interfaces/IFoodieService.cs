@@ -7,7 +7,7 @@ namespace FoodieMania.Domain.Interfaces
         Task<IEnumerable<Foodie>>GetFoodiesAsync();
 
         Task<Foodie> CreateFoodieAsync(Foodie foodie);
-        Task<Foodie> GetCountrtById(Guid id);
+        Task<Foodie> GetFoodieByIdAsync(Guid id);
 
         Task<Foodie> EditFoodieAsync(Foodie foodie);
         Task<Foodie> DeleteFoodieAsync(Guid id);
