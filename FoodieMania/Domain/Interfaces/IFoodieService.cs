@@ -1,4 +1,4 @@
-﻿using FoodieMania.DAL.Entities
+﻿using FoodieMania.DAL.Entities;
 
 namespace FoodieMania.Domain.Interfaces
 {
